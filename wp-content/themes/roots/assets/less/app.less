@@ -1,0 +1,244 @@
+/*!
+ * Roots 6.5.1
+ */
+
+@import "bootstrap/bootstrap.less";
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+   background: #ececec;
+   font-weight: 300;
+   ::selection {
+      background: @atomic-red; /* Safari */
+      }
+   ::-moz-selection {
+      background: @atomic-red; /* Firefox */
+   }
+}
+
+.container {
+   padding: 0;
+}
+
+.masthead {
+   background: @atomic-blue;
+   height: 500px;
+   text-align: center;
+   padding-top: 75px;
+   .logo {
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+   }
+}
+
+@media only screen
+and(max-width : @screen-sm) {
+   .masthead {
+      h1,h2{
+         padding: 60px 0px;
+      }
+   }
+}
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.banner {
+   border-radius: 0;
+   margin-bottom: 0;
+   border: none;
+}
+
+.navbar-collapse {
+   padding: 0;
+}
+
+.search {
+   .form-control{
+      background: darken(#333, 50%);
+      color: #fff;
+      border: none;
+      border-radius: 0;
+      &:focus{
+         box-shadow: none;
+      }
+   }
+   margin-top: 7px;
+   .search-button {
+      background: transparent;
+      color: #fff;
+      border: none;
+      border-radius: 0;
+   }
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content {
+   background: #fff;
+   margin: 0;
+   width: 100%;
+   .page-header{
+      display: none;
+   }
+   .content-img {
+      width: 100%;
+      text-align: center;
+      padding: 1%;
+   }
+}
+
+.post {
+   width: 100%;
+}
+
+.published {
+   display: none;
+}
+
+.entry-title, .published, .byline {
+   text-align: center;
+}
+
+.full-img {
+   width: 100%;
+   height: auto;
+   margin: 25px 0px;
+   img {
+      width: 100%;
+   }
+}
+
+.entry-content {
+   padding: 10px 15%;
+}
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main {
+   padding: 0;
+}
+
+.su-posts .col-md-6 {
+   padding: 0;
+}
+
+.su-posts .col-sm-6 {
+   padding: 0;
+   margin: 0;
+}
+
+.su-posts {
+   .su-post {
+      overflow: hidden;
+      background: #fff;
+      min-height: 300px;
+      float: left;
+      margin-bottom: 0 !important;
+      .su-post-title, .su-post-meta, .su-post-excerpt, .su-post-comments-link {
+         width: 100%;
+         padding-left: 10px;
+         padding-right: 10px;
+      }
+      .su-post-title {
+         padding-top: 20px;
+      }
+   }
+   .su-post-thumbnail {
+      float: right;
+      width: 300px;
+      height: 300px;
+      margin-right: 0;
+      overflow: hidden;
+      img{
+         height: 300px;
+         width: auto;
+      }
+   }
+}
+
+.projects-container {
+   width: 100%;
+   height: 500px;
+   background: #fff;
+   position: relative;
+   margin: 0;
+   padding: 0;
+   .projects-interior {
+      background: @atomic-blue;
+      height: 250px;
+      border: 1px solid #fff;
+      margin: 0;
+      padding: 10px;
+   }
+}
+
+/* Gallery Shortcode */
+.gallery-row { padding: 15px 0; }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info {
+   color: #333;
+   padding-top: 20px;
+   padding-left: 10px;
+   background: #fff;
+}
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: @screen-sm-min) { }
+
+@media (min-width: @screen-md-min) { }
+
+@media (min-width: @screen-lg-min) { }
