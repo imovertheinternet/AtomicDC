@@ -139,29 +139,43 @@ body {
    margin: 0;
 }
 
-@media (min-width: @screen-lg-min) {
+.su-posts {
+   .su-post {
+      overflow: hidden;
+      background: #fff;
+      height: 500px;
+      float: left;
+      margin-bottom: 0 !important;
+      .su-post-title, .su-post-meta, .su-post-excerpt, .su-post-comments-link {
+         width: 100%;
+         padding-left: 10px;
+         padding-right: 10px;
+         font-size: 90%;
+      }
+      .su-post-title {
+         padding-top: 20px;
+      }
+   }
+   .su-post-thumbnail {
+      float: right;
+      width: 100%;
+      height: 500px;
+      margin-right: 0;
+      overflow: hidden;
+      img{
+         height: auto;
+         width: 100%;
+      }
+   }
+}
+
+@media (min-width: @screen-md-min) {
    .su-posts {
       .su-post {
-         overflow: hidden;
-         background: #fff;
-         min-height: 300px;
-         float: left;
-         margin-bottom: 0 !important;
-         .su-post-title, .su-post-meta, .su-post-excerpt, .su-post-comments-link {
-            width: 100%;
-            padding-left: 10px;
-            padding-right: 10px;
-         }
-         .su-post-title {
-            padding-top: 20px;
-         }
+         height: 300px;
       }
       .su-post-thumbnail {
-         float: right;
-         width: 300px;
          height: 300px;
-         margin-right: 0;
-         overflow: hidden;
          img{
             height: 300px;
             width: auto;
@@ -170,97 +184,16 @@ body {
    }
 }
 
-@media (min-width: @screen-md-min) {
+@media (min-width: @screen-lg-min) {
    .su-posts {
       .su-post {
-         overflow: hidden;
-         background: #fff;
-         height: 300px !important;
-         float: left;
-         margin-bottom: 0 !important;
-         .su-post-title, .su-post-meta, .su-post-excerpt, .su-post-comments-link {
-            width: 100%;
-            padding-left: 10px;
-            padding-right: 10px;
-            font-size: 90%;
-         }
-         .su-post-title {
-            padding-top: 20px;
-         }
+         height: 300px;
       }
       .su-post-thumbnail {
-         float: right;
-         width: 100%;
-         height: 300px !important;
-         margin-right: 0;
-         overflow: hidden;
+         height: 300px;
          img{
-            height: 300px !important;
-            width: auto !important;
-         }
-      }
-   }
-}
-
-@media (min-width: @screen-sm-min) {
-   .su-posts {
-      .su-post {
-         overflow: hidden;
-         background: #fff;
-         height: 500px;
-         float: left;
-         margin-bottom: 0 !important;
-         .su-post-title, .su-post-meta, .su-post-excerpt, .su-post-comments-link {
-            width: 100%;
-            padding-left: 10px;
-            padding-right: 10px;
-            font-size: 90%;
-         }
-         .su-post-title {
-            padding-top: 20px;
-         }
-      }
-      .su-post-thumbnail {
-         float: right;
-         width: 100%;
-         height: 500px;
-         margin-right: 0;
-         overflow: hidden;
-         img{
-            height: auto;
-            width: 100%;
-         }
-      }
-   }
-}
-
-@media (min-width: @screen-xs-min) {
-   .su-posts {
-      .su-post {
-         overflow: hidden;
-         background: #fff;
-         height: 500px;
-         float: left;
-         margin-bottom: 0 !important;
-         .su-post-title, .su-post-meta, .su-post-excerpt, .su-post-comments-link {
-            width: 100%;
-            padding-left: 10px;
-            padding-right: 10px;
-            font-size: 90%;
-         }
-         .su-post-title {
-            padding-top: 20px;
-         }
-      }
-      .su-post-thumbnail {
-         float: right;
-         width: 100%;
-         height: 500px;
-         margin-right: 0;
-         overflow: hidden;
-         img{
-            height: auto;
-            width: 100%;
+            height: 300px;
+            width: auto;
          }
       }
    }
