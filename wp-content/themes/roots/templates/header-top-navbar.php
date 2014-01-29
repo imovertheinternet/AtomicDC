@@ -14,7 +14,6 @@
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
-      <div class="pull-right search"> <?php get_search_form(); ?> </div>
     </nav>
   </div>
 </header>
