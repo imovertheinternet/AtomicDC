@@ -10,13 +10,13 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      // JavaScript to be fired on all pages
+      $(".masthead h1").fitText(2.0);
     }
   },
   // Home page
   home: {
     init: function() {
-      $(".masthead h1").fitText(2.0);
+      // JS here
     }
   },
   // About page
