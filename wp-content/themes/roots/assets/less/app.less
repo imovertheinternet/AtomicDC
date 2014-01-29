@@ -207,11 +207,26 @@ body {
    margin: 0;
    padding: 0;
    .projects-interior {
-      background: @atomic-blue;
       height: 250px;
-      border: 1px solid #fff;
       margin: 0;
       padding: 10px;
+      overflow: hidden;
+      .project-title{
+         position: absolute;
+         top: 0;
+         left: 0;
+         a{
+            color: #fff;
+            text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+         }
+      }
+      .project-thumbnail{
+         padding: 0;
+         img{
+            width: 100%;
+            height: auto;
+         }
+      }
    }
 }
 

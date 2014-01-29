@@ -1,10 +1,22 @@
 <div class="col-lg-12 projects-container">
 	<div class="col-md-3 projects-interior">
-
+		<?php query_posts('cat=3&showposts=1'); ?>
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<h1 class="project-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
+			<?php if ( has_post_thumbnail() ) : ?>
+				<a class="project-thumbnail" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+			<?php endif; ?>
+		<?php endwhile; endif; ?>
 	</div>
 
 	<div class="col-md-3 projects-interior">
-
+		<?php query_posts('cat=3&showposts=1&offset=1'); ?>
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<h1 class="project-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
+			<?php if ( has_post_thumbnail() ) : ?>
+				<a class="project-thumbnail" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+			<?php endif; ?>
+		<?php endwhile; endif; ?>
 	</div>
 
 	<div class="col-md-6 projects-interior">
