@@ -93,7 +93,6 @@ and(max-width : @screen-sm) {
    ========================================================================== */
 
 .content {
-   background: #fff;
    margin: 0;
    width: 100%;
    .page-header{
@@ -178,9 +177,23 @@ and(max-width : @screen-sm) {
    }
 }
 
+@media only screen
+and(max-width : 687px) {
+   .su-posts{
+      .su-post-thumbnail {
+         width: 100%;
+         height: 300px;
+         img{
+            width: 100%;
+            height: auto;
+         }
+      }
+   }
+}
+
 .projects-container {
    width: 100%;
-   height: 500px;
+   height: auto;
    background: #fff;
    position: relative;
    margin: 50px 0 0 0;
@@ -195,6 +208,7 @@ and(max-width : @screen-sm) {
 }
 
 .quote-container {
+   height: auto;
    padding: 100px;
    h1{
       font-family: 'Domine', serif;
@@ -202,6 +216,13 @@ and(max-width : @screen-sm) {
       font-size: 40px;
       text-align: center;
       color: #666;
+   }
+   .services {
+      text-align: center;
+      margin-top: 100px;
+      h1{
+         font-family: @atomic-main;
+      }
    }
 }
 
