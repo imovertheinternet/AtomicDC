@@ -16,7 +16,7 @@ var Roots = {
   // Home page
   home: {
     init: function() {
-      $('.logo').addClass('animated pulse');
+      $(".masthead h1").fitText(2.0);
     }
   },
   // About page

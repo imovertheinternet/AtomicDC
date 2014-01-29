@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         'Gruntfile.js',
         'assets/js/*.js',
         '!assets/js/scripts.min.js',
-        '!assets/js/plugins/instafeed.min.js'
+        '!assets/js/plugins/jquery.fittext.js'
       ]
     },
     less: {

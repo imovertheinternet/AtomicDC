@@ -28,9 +28,20 @@ body {
    height: 500px;
    text-align: center;
    padding-top: 75px;
+   color: #fff;
    .logo {
-      animation-iteration-count: infinite;
-      animation-duration: 2s;
+      height: 150px;
+      width: auto;
+      margin-top: 20px;
+   }
+   h1 {
+      font-family: 'Domine', serif;
+      font-size: 100px;
+      font-weight: 700;
+      margin-top: 0;
+   }
+   p{
+      font-size: 25px;
    }
 }
 
@@ -172,7 +183,7 @@ and(max-width : @screen-sm) {
    height: 500px;
    background: #fff;
    position: relative;
-   margin: 0;
+   margin: 50px 0 0 0;
    padding: 0;
    .projects-interior {
       background: @atomic-blue;
@@ -180,6 +191,17 @@ and(max-width : @screen-sm) {
       border: 1px solid #fff;
       margin: 0;
       padding: 10px;
+   }
+}
+
+.quote-container {
+   padding: 0 20px 0 20px;
+   h1{
+      font-family: 'Domine', serif;
+      font-weight: 400;
+      font-size: 40px;
+      text-align: center;
+      color: #666;
    }
 }
 
