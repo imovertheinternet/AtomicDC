@@ -11,6 +11,7 @@ var Roots = {
   common: {
     init: function() {
       $(".masthead h1").fitText(2.0);
+      $('.projects-interior').fitimg();
     }
   },
   // Home page

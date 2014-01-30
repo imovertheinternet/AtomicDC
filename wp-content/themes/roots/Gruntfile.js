@@ -10,7 +10,9 @@ module.exports = function(grunt) {
         'Gruntfile.js',
         'assets/js/*.js',
         '!assets/js/scripts.min.js',
-        '!assets/js/plugins/jquery.fittext.js'
+        '!assets/js/plugins/jquery.fittext.js',
+        '!assets/js/plugins/jquery.fitimg.min.js',
+        '!assets/js/plugins/imagesloaded.pkgd.min.js'
       ]
     },
     less: {
