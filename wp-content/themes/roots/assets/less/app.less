@@ -266,6 +266,52 @@ body {
 .gallery-row { padding: 15px 0; }
 
 
+/* ==========================================================================
+   Blog Page
+   ========================================================================== */
+
+.su-posts-featured-loop {
+   .su-post {
+      padding: 0;
+      height: 500px;
+      .featured-info {
+         position: absolute;
+         width: 100%;
+         text-align: center;
+         z-index: 100;
+         color: #fff;
+         h2{
+            font-family: 'Domine', serif;
+            font-weight: 400;
+            font-size: 60px;
+            margin-top: 100px;
+            text-shadow: 2px 2px 2px rgba(0,0,0,.8);
+            a{
+               color: #fff;
+            }
+         }
+         p{
+            width: 50%;
+            margin: 0 auto;
+            font-size: 24px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+         }
+      }
+      .featured-blog-img {
+         z-index: 0;
+         padding: 0;
+         height: 500px;
+         .su-post-thumbnail{
+            height: 100%;
+            img{
+               width: 100%;
+               height: auto;
+            }
+         }
+      }
+   }
+}
+
 
 /* ==========================================================================
    Sidebar
