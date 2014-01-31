@@ -12,6 +12,7 @@ var Roots = {
     init: function() {
       $(".masthead h1").fitText(2.0);
       $('.projects-interior').fitimg();
+      $('.featured-blog-img').fitimg();
     }
   },
   // Home page
