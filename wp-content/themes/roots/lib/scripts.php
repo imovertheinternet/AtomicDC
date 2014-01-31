@@ -11,7 +11,7 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '5847abbf0fed77f446d9c9b4bce49e33');
+  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, 'd2a88ed7904bb12859d65a751206c62d');
   wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/animate.min.css');
 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
