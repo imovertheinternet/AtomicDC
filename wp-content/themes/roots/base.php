@@ -1,7 +1,3 @@
-
-
-
-
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
@@ -13,7 +9,7 @@
 
   <div class="masthead">
     <h1>33&deg;4' 42.23" N &#8212; 96&deg; 49' 11.76" W</h1>
-    <p>Come meet the team that will build your next website.</p>
+    <p>Meet the team to build your next website.</p>
     <a href="<?php echo home_url(); ?>/"><img class="logo" src="/atomic/wp-content/themes/roots/assets/img/atomic-logo-type.png"></a>
   </div>
 
