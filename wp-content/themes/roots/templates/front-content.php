@@ -1,3 +1,13 @@
+<div class="col-lg-12 about-atomic">
+	<div class="col-md-4 col-md-offset-2">
+		<p>We are a <strong>Dallas web design</strong> agency focused on rapid digital development and creative internet marketing solutions. </p>
+		<p>Keeping up with current design and development trends and paving the way for new ones.</p>
+	</div>
+	<div class="col-md-4">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, molestiae officia tempora libero minima earum dicta praesentium quidem eius neque. Recusandae, obcaecati veniam maxime maiores iste porro deleniti laudantium magnam!</p>
+	</div>
+</div>
+
 <div class="col-lg-12 projects-container">
 	<div class="col-md-3 projects-interior">
 		<?php query_posts('cat=3&showposts=1'); ?>
