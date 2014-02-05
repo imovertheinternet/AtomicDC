@@ -63,7 +63,6 @@ Web Design Services: <br><br>
   <button type="submit" class="btn btn-primary">Submit</button>
   </form>
   <br>
-<?php dynamic_sidebar('sidebar-footer'); ?>
       <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name');?>
       <br>
       Privacy | Terms & Conditions
