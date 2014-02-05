@@ -17,3 +17,9 @@ require_once locate_template('/lib/relative-urls.php');   // Root relative URLs
 require_once locate_template('/lib/widgets.php');         // Sidebars and widgets
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
 require_once locate_template('/lib/custom.php');          // Custom functions
+
+
+add_action('template_redirect', 'redirect_my_term' );function redirect_my_term() {if (is_search()) {
+ 	if (preg_match('/\bgalaga\b/i', get_search_query()) == TRUE){
+		wp_redirect(home_url("/?page_id=111/")); die(); }}
+	}
