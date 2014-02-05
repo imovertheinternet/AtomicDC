@@ -66,6 +66,7 @@ body {
       color: #fff;
       border: none;
       border-radius: 0;
+      display: none;
       &:focus{
          box-shadow: none;
       }
@@ -76,7 +77,19 @@ body {
       color: #fff;
       border: none;
       border-radius: 0;
+      display: none;
    }
+}
+
+@media (min-width: @screen-md-min) {
+.search {
+   .form-control{
+      display: block;
+   }
+   .search-button {
+      display: block;
+   }
+}
 }
 
 /* ==========================================================================
@@ -342,6 +355,28 @@ body {
       }
    }
 }
+
+
+/* ==========================================================================
+   Galaga Game
+   ========================================================================== */
+
+.galaga-game {
+   text-align: center;
+   padding-top: 25px;
+   background: #fff;
+   #galaga_canvas {
+      position: relative;
+      margin: 0 auto;
+   }
+   .galaga-info{
+      text-align: left;
+      b{
+         color: @atomic-red;
+      }
+   }
+}
+
 
 /* ==========================================================================
    Sidebar
