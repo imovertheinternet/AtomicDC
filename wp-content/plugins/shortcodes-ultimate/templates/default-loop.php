@@ -1,4 +1,4 @@
-<div class="su-posts su-posts-default-loop">
+<div class="su-posts su-posts-default-loop container">
 	<?php
 		// Posts are found
 		if ( $posts->have_posts() ) {
