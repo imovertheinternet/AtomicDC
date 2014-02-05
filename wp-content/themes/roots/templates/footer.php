@@ -1,9 +1,11 @@
 
 
+
 <div class="col-lg-12" style="background-color:#1d2429;color:#fff;padding-top:30px;padding-bottom:30px;font-size:12px;">
 <div class="container">
 
 <div class="col-sm-5 col-md-5">
+
 <div class="socialfooter">
 <i class="icon-list fa fa-facebook fa-2x"></i>
 <i class="icon-list fa fa-twitter fa-2x"></i>
@@ -24,12 +26,12 @@
 <div class="col-sm-3 col-md-3">
 <ul class="iconlistmidleft">
 Web Design Services: <br><br>
-<i class="icon-list fa fa-angle-right fa-lg"></i> Web Design & Development<br><br>
-<i class="icon-list fa fa-angle-right fa-lg"></i> Email Marketing<br><br>
-<i class="icon-list fa fa-angle-right fa-lg"></i> SEO /SEM<br><br>
-<i class="icon-list fa fa-angle-right fa-lg"></i> Social Marketing<br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">Web Design & Development</a><br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">Email Marketing</a><br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">SEO /SEM</a><br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">Social Marketing</a><br><br>
 <br>Get in touch:<br>
-<i class="icon-list fa fa-angle-right fa-lg"></i>CONTACTUS@ATOMICDC.COM<br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">CONTACTUS@ATOMICDC.COM</a><br><br>
 <br></ul>
 
 
