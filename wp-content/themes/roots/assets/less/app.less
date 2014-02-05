@@ -256,15 +256,43 @@ body {
 
 .about-atomic {
    width: 100%;
+   min-height: 500px;
    background: #ececec;
-   height: auto;
    padding: 5%;
-   p {  
+   color: #666;
+   .about-info{
+      max-height: 500px;
+      background: #ececec;
+      p {  
+         text-align: center;
+         font-family: 'Domine', serif;
+         font-weight: 400;
+         font-size: 18px;
+      }
+   }
+   .recent-case {
+      max-height: 500px;
       text-align: center;
-      font-family: 'Domine', serif;
-      font-weight: 400;
-      font-size: 24px;
-      color: #666;
+      background: #ececec;
+      h3{
+         margin: 0;
+      }
+   }
+   .widget_sp_image{
+      img{
+         width: 100%;
+         height: auto;
+      }
+   }
+}
+
+@media (min-width: @screen-lg-min) {
+   .about-atomic {
+      .about-info{
+         p{
+            font-size: 24px;
+         }
+      }
    }
 }
 
