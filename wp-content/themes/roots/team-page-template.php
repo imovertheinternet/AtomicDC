@@ -4,6 +4,10 @@ Template Name: Team Page
 */
 ?>
 
+<div class="team-cont">
+	<h1>The right team, under the right roof</h1>
+</div>
+
 <div class="container team-sandbox">
 	<div class="hexagon hexagon1">
 		<div class="hexagon-in1">
