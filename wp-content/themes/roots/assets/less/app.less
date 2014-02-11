@@ -540,11 +540,24 @@ body {
 
    .team-member {
       margin: 50px auto; 
+      .byline {
+         display: none;
+      }
+      .team-title {
+         width: 100%;
+         border-bottom: 5px solid @atomic-blue;
+      }
       .team-image{
          margin-right: 10px;
          width: 100%;
          height: 500px;
          background-size: cover;
+      }
+      blockquote {
+         font-family: 'Domine', serif;
+         p{
+            font-size: 32px;
+         }
       }
    }
 
@@ -585,8 +598,27 @@ body {
 .hentry header { }
 .hentry time { }
 .hentry .byline { }
-.hentry .entry-content { }
+.hentry .entry-content {
+   padding: 0;
+}
 .hentry footer { }
+
+.single-post-content{
+
+}
+
+.blog-image-cont{
+   width: 100%;
+   height: 500px;
+   .blog-image{
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-position: 50%;
+      margin: 0;
+      padding: 0;
+   }
+}
 
 
 
