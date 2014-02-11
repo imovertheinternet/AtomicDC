@@ -12,9 +12,19 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+      $(".hexagon").click(function(){
+           window.location=$(this).find("a").attr("href");
+           return false;
+      });
       $(".masthead h1").fitText(2.0);
       $('.projects-interior').fitimg();
       $('.featured-blog-img').fitimg();
+      $('.hexagon').click(function(){
+        $(this).addClass('animated fadeOut');
+          setTimeout(function() {
+              $(".hexagon").addClass('animated fadeOut');
+          }, 500);
+      });
     }
   },
   // Home page
