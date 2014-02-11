@@ -8,6 +8,10 @@
 		<?php endif; ?>
 	</div>
 	<div class="col-md-6">
+		<header>
+			<h1 class="team-title"><?php the_title(); ?></h1>
+			<?php get_template_part('templates/entry-meta'); ?>
+		</header>
 		<?php get_template_part('templates/content', 'page'); ?>
 	</div>
 </div>
