@@ -74,16 +74,16 @@
 </div> -->
 
 
-<div class="col-lg-12" style="background-color:#090b0b;height:auto;color:wheat;text-align:center;font-size:20px;padding:30px;">
+<div class="col-lg-12" style="background-color:#FEFEFE;height:auto;color:#666;text-align:center;font-size:20px;padding:30px;">
 <div class="container" >
 <div class="row">	Client List: </div>
 	<div class="row">	
-	<i class="fa fa-pagelines fa-5x" style="padding:20px"></i>
-	<i class="fa fa-trello fa-5x" style="padding:20px"></i>
-	<i class="fa fa-css3 fa-5x" style="padding:20px"></i>
-	<i class="fa fa-weibo fa-5x" style="padding:20px"></i>
-	<i class="fa fa-dribbble fa-5x" style="padding:20px"></i>
-	<i class="fa fa-adn fa-5x" style="padding:20px"></i>
+	<i class="fa fa-pagelines fa-5x" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-trello fa-5x" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-css3 fa-5x" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-weibo fa-5x" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-dribbble fa-5x" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-adn fa-5x" style="padding:0 50px 0 50px"></i>
 		
 		</div>
 	</div>
