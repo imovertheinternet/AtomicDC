@@ -12,28 +12,32 @@
         height: 400px;
       }
 
-.socialfooter{
-padding-left: 108px;
+.footerpulse {
+-moz-animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+-o-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
 }
+
 
 .socialfooter .icon-list{
 min-width: 48px;
 position:relative;
- -moz-transition-property: all;
+   -moz-transition-property: all;
     -webkit-transition-property: all;
     -o-transition-property: all;
     transition-property: all;
     -moz-transition-duration: 0.8s;
     -webkit-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;
+    transition-duration: 0.8s; 
 color: white;
 }
 
 .socialfooter .icon-list:hover{
-color:#0082c8;
+color:#87c2ed;
 position:relative;
-padding-left:15px;
+/*padding-left:15px; */
    }
 
 .iconlistmidright .icon-list {
@@ -59,7 +63,6 @@ min-width:15px;
 .iconlistmidleft a{
 padding: 0;
 list-style-type:none;
-
 color:white;
  -moz-transition-property: all;
     -webkit-transition-property: all;
@@ -76,8 +79,25 @@ color:white;
 color:#acacac;
 }
 
+.iconlistmidright a{
+padding: 0;
+list-style-type:none;
+color:white;
+ -moz-transition-property: all;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
 
 
+.iconlistmidright a:hover{
+   text-decoration: none;
+   color: #acacac
+}
 
 
 body {

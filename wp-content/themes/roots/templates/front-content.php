@@ -60,12 +60,31 @@
 	</div>
 </div>
 
-<div class="col-lg-12 container">
-	<div class="content row">
-		<div class="col-lg-12 container quote-container">
-			<div class="col-md-6 col-md-offset-3">
-				<h1>AtomicDC is a 360&deg; creative agency with over 12 years under the hood.</h1>
-			</div>
+<!-- <div class="col-lg-12 container">
+	<div class="content row" style="background-color:#090b0b;height:auto;color:wheat;text-align:center;font-size:20px;">	
+	<i class="fa fa-pagelines fa-5x"></i>
+	<i class="fa fa-trello fa-5x"></i>
+	<i class="fa fa-css3 fa-5x"></i>
+	<i class="fa fa-weibo fa-5x"></i>
+	<i class="fa fa-dribbble fa-5x"></i>
+	<i class="fa fa-adn fa-5x"></i>
+		<div class="col-lg-12 container quote-container">			
+		</div>
+	</div>
+</div> -->
+
+
+<div class="col-lg-12" style="background-color:#090b0b;height:auto;color:wheat;text-align:center;font-size:20px;padding:30px;">
+<div class="container" >
+<div class="row">	Client List: </div>
+	<div class="row">	
+	<i class="fa fa-pagelines fa-5x" style="padding:20px"></i>
+	<i class="fa fa-trello fa-5x" style="padding:20px"></i>
+	<i class="fa fa-css3 fa-5x" style="padding:20px"></i>
+	<i class="fa fa-weibo fa-5x" style="padding:20px"></i>
+	<i class="fa fa-dribbble fa-5x" style="padding:20px"></i>
+	<i class="fa fa-adn fa-5x" style="padding:20px"></i>
+		
 		</div>
 	</div>
 </div>

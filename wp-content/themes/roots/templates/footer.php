@@ -1,17 +1,16 @@
-
-
-
 <div class="col-lg-12" style="background-color:#1d2429;color:#fff;padding-top:30px;padding-bottom:30px;font-size:12px;">
 <div class="container">
 
 <div class="col-sm-5 col-md-5">
 
 <div class="socialfooter">
-<i class="icon-list fa fa-facebook fa-2x"></i>
-<i class="icon-list fa fa-twitter fa-2x"></i>
-<i class="icon-list fa fa-google-plus-square fa-2x"></i>
-<i class="icon-list fa fa-instagram fa-2x"></i>
-<i class="icon-list fa fa-linkedin-square fa-2x"></i>
+<center>
+<i class="icon-list fa fa-facebook fa-2x footerpulse"></i>
+<i class="icon-list fa fa-twitter fa-2x footerpulse"></i>
+<i class="icon-list fa fa-google-plus-square fa-2x footerpulse"></i>
+<i class="icon-list fa fa-instagram fa-2x footerpulse"></i>
+<i class="icon-list fa fa-linkedin-square fa-2x footerpulse"></i>
+</center>
 </div><br><br>
 <div class="tweets">
 <a class="twitter-timeline" data-theme="dark" data-tweet-limit="2" data-chrome="nofooter noheader noborders transparent" data-dnt="true" height="250px" href="https://twitter.com/AtomicDC" data-widget-id="430020004847693825">Tweets by @AtomicDC</a>
@@ -49,9 +48,9 @@ Web Design Services: <br><br>
 
 <div class="col-sm-4 col-md-4">
 <ul class="iconlistmidright">
-<i class="icon-list fa fa-angle-right fa-lg"></i>CAREERS<br><br>
-<i class="icon-list fa fa-angle-right fa-lg"></i>30 CONVERSATIONS ON DESIGN<br><br>
-<i class="icon-list fa fa-angle-right fa-lg"></i>WHITE PAPERS<br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">CAREERS</a><br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">30 CONVERSATIONS ON DESIGN</a><br><br>
+<i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">WHITE PAPERS</a><br><br>
 </ul>
 
 <form role="form">
