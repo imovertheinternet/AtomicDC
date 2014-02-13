@@ -28,6 +28,7 @@ var Roots = {
               $(".hex2").addClass('animated fadeOut');
           }, 1000);
       });
+
     }
   },
   // Home page
