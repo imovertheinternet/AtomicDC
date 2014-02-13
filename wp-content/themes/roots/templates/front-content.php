@@ -1,3 +1,14 @@
+<div class="col-lg-12 about-atomic">
+	<div class="col-md-4 col-md-offset-2 about-info">
+		<p>We are a <strong>Dallas web design</strong> agency focused on design, creativity, strategy, development, and digital marketing. Founded in 2002 with a goal to create amazing digital presense for businesses. </p>
+		<p>Constantly keeping up with current design and development trends and paving the way for new ones by offering company based meet-ups and presentations on new digital trends.</p>
+	</div>
+	<div class="col-md-4 recent-case">
+		<h3>Our Recent Case Study</h3>
+		<?php dynamic_sidebar('sidebar-footer'); ?>
+	</div>
+</div>
+
 <div class="col-lg-12 projects-container">
 	<div class="col-md-3 projects-interior">
 		<?php query_posts('cat=3&showposts=1'); ?>
