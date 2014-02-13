@@ -9,77 +9,77 @@ Template Name: Team Page
 </div>
 
 <div class="container team-sandbox">
-	<div class="hexagon hexagon1">
+	<div class="hexagon hexagon1 hex1">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1">
+	<div class="hexagon hexagon1 hex2">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1">
+	<div class="hexagon hexagon1 hex1">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-2-first">
+	<div class="hexagon hexagon1 row-2-first hex2">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-2">
+	<div class="hexagon hexagon1 row-2 hex1">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-2">
+	<div class="hexagon hexagon1 row-2 hex2">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-2">
+	<div class="hexagon hexagon1 row-2 hex1">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-2">
+	<div class="hexagon hexagon1 row-2 hex2">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-3-first">
+	<div class="hexagon hexagon1 row-3-first hex1">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-3">
+	<div class="hexagon hexagon1 row-3 hex2">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">
 			</div>
 		</div>
 	</div>
-	<div class="hexagon hexagon1 row-3-last">
+	<div class="hexagon hexagon1 row-3-last hex1">
 		<div class="hexagon-in1">
 			<div class="hexagon-in2">
 				<a href="http://localhost/atomic/?page_id=133">

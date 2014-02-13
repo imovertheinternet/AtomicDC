@@ -22,8 +22,11 @@ var Roots = {
       $('.hexagon').click(function(){
         $(this).addClass('animated fadeOut');
           setTimeout(function() {
-              $(".hexagon").addClass('animated fadeOut');
+              $(".hex1").addClass('animated fadeOut');
           }, 500);
+          setTimeout(function(){
+              $(".hex2").addClass('animated fadeOut');
+          }, 1000);
       });
     }
   },
