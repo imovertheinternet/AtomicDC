@@ -12,6 +12,10 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+      $(".hexagon").click(function(){
+           window.location=$(this).find("a").attr("href");
+           return false;
+      });
       $(".masthead h1").fitText(2.0);
       $('.projects-interior').fitimg();
       $('.featured-blog-img').fitimg();
@@ -19,6 +23,16 @@ var Roots = {
        function(){ $(this).addClass('animated pulse') ;},
        function(){ $(this).removeClass('animated pulse') ;}
 );
+      $('.hexagon').click(function(){
+        $(this).addClass('animated fadeOut');
+          setTimeout(function() {
+              $(".hex1").addClass('animated fadeOut');
+          }, 500);
+          setTimeout(function(){
+              $(".hex2").addClass('animated fadeOut');
+          }, 1000);
+      });
+
     }
   },
   // Home page
