@@ -85,17 +85,15 @@
 </div> -->
 
 
-<div class="col-lg-12" style="background-color:#FEFEFE;height:auto;color:#666;text-align:center;font-size:20px;padding:30px;">
+<div class="col-lg-12" style="background-color:#ebebeb;height:auto;color:#666;text-align:center;font-size:20px;padding:30px;">
 <div class="container" >
 <div class="row">	Client List: </div>
-	<div class="row">	
-	<i class="fa fa-pagelines fa-5x" style="padding:0 50px 0 50px"></i>
-	<i class="fa fa-trello fa-5x" style="padding:0 50px 0 50px"></i>
-	<i class="fa fa-css3 fa-5x" style="padding:0 50px 0 50px"></i>
-	<i class="fa fa-weibo fa-5x" style="padding:0 50px 0 50px"></i>
-	<i class="fa fa-dribbble fa-5x" style="padding:0 50px 0 50px"></i>
-	<i class="fa fa-adn fa-5x" style="padding:0 50px 0 50px"></i>
-		
+	<div class="row" style="padding:25px 0 25px 0;">	
+	<div class="col-lg-2"><i class="fa fa-pagelines fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
+	<div class="col-lg-2"><i class="fa fa-trello fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
+	<div class="col-lg-2"><i class="fa fa-css3 fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
+	<div class="col-lg-2"><i class="fa fa-weibo fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
+	<div class="col-lg-2"><i class="fa fa-adn fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
 		</div>
 	</div>
 </div>

@@ -2,7 +2,6 @@
 <div class="container">
 
 <div class="col-sm-5 col-md-5">
-
 <div class="socialfooter">
 <center>
 <i class="icon-list fa fa-facebook fa-2x footerpulse"></i>
@@ -23,15 +22,15 @@
 </div>
 
 <div class="col-sm-3 col-md-3">
-<ul class="iconlistmidleft">
+<ul class="wds">
 Web Design Services: <br><br>
 <i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">Web Design & Development</a><br><br>
 <i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">Email Marketing</a><br><br>
 <i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">SEO /SEM</a><br><br>
 <i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">Social Marketing</a><br><br>
-<br>Get in touch:<br>
+<br>Get in touch:<br><br>
 <i class="icon-list fa fa-angle-right fa-lg"></i><a href="#">CONTACTUS@ATOMICDC.COM</a><br><br>
-<br></ul>
+</ul>
 
 
 </div>
@@ -69,14 +68,12 @@ Web Design Services: <br><br>
 </div>
 </div>
 
-
 <!-- <div class="col-lg-12" style="background-color:#1d2429;border-top:1px dashed #37424d">
 <div class="container" style="color:white;padding-top:10px;font-size:12px;">
 <?php dynamic_sidebar('sidebar-footer'); ?>
       <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name');?>
 </div>
 </div> -->
-
 
 <div class="col-lg-12">
 <div id="map_canvas"></div>

@@ -23,6 +23,12 @@ var Roots = {
        function(){ $(this).addClass('animated pulse') ;},
        function(){ $(this).removeClass('animated pulse') ;}
 );
+
+     $('.clientbounce').hover(
+       function(){ $(this).addClass('animated bounce') ;},
+       function(){ $(this).removeClass('animated bounce') ;}
+);
+
       $('.hexagon').click(function(){
         $(this).addClass('animated fadeOut');
           setTimeout(function() {

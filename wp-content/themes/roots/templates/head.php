@@ -22,6 +22,7 @@
       function initialize() {
         var map_canvas = document.getElementById('map_canvas');
         var myLatlng = new google.maps.LatLng(33.078219, -96.819380);
+        var parking = new google.maps.LatLng(33.078680, -96.820048);
         var map_options = {
           center: new google.maps.LatLng(33.078219, -96.819380),
           zoom: 17,
@@ -34,11 +35,22 @@
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      icon: 'http://pbs.twimg.com/profile_images/3060812769/d132a7e3e6d0db8af49743a387f19ccf_normal.png',
+      icon: '/atomic/wp-content/themes/roots/assets/img/atomicmapicon.png',
       title: 'Come visit us at AtomicDC'
          });
+
+
+  var marker = new google.maps.Marker({
+      position: parking,
+      map: map,
+      icon: '/atomic/wp-content/themes/roots/assets/img/parkingicon.png',
+      title: 'Feel free to park here for free.'
+         });
+
+
       }
       google.maps.event.addDomListener(window, 'load', initialize);
+
     </script>
 
 
