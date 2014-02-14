@@ -21,8 +21,8 @@
     <script>
       function initialize() {
         var map_canvas = document.getElementById('map_canvas');
-        var myLatlng = new google.maps.LatLng(33.078219, -96.819380);
-        var parking = new google.maps.LatLng(33.078456, -96.820059);
+        var myLatlng = new google.maps.LatLng(33.078218, -96.819380);
+        var parking = new google.maps.LatLng(33.078456, -96.820058);
         var map_options = {
           center: new google.maps.LatLng(33.078219, -96.819380),
           zoom: 17,

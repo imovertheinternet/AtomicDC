@@ -89,11 +89,11 @@
 <div class="container" >
 <div class="row">	Client List: </div>
 	<div class="row" style="padding:25px 0 25px 0;">	
-	<div class="col-lg-2"><i class="fa fa-pagelines fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
-	<div class="col-lg-2"><i class="fa fa-trello fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
-	<div class="col-lg-2"><i class="fa fa-css3 fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
-	<div class="col-lg-2"><i class="fa fa-weibo fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
-	<div class="col-lg-2"><i class="fa fa-adn fa-5x clientbounce" style="padding:0 50px 0 50px"></i></div>
+	<i class="fa fa-pagelines fa-5x clientbounce" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-trello fa-5x clientbounce" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-css3 fa-5x clientbounce" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-weibo fa-5x clientbounce" style="padding:0 50px 0 50px"></i>
+	<i class="fa fa-adn fa-5x clientbounce" style="padding:0 50px 0 50px"></i>
 		</div>
 	</div>
 </div>
